@@ -27,7 +27,7 @@ pip install -r requirements.txt
 ```
 
 ### Data
-Request and download Framenet Dataset 1.5 and Framenet Dataset 1.7 from [Framenet Official Website]("https://framenet.icsi.berkeley.edu/fndrupal/"). Place them under `data` directory, which contatins two subdirectories called `fndata-1.5` and `fndata-1.7`. Specially, the data should be splited into there subdirectories following [FN1.5](https://github.com/swabhs/scaffolding/blob/master/allennlp/data/dataset_readers/framenet/full_text_reader.py) and [FN1.7](https://github.com/swabhs/open-sesame/blob/625da3d451/sesame/globalconfig.py). Structures are showed below:
+Request and download Framenet Dataset 1.5 and Framenet Dataset 1.7 from [Website]("https://framenet.icsi.berkeley.edu/fndrupal/"). Place them under `data` directory, which contatins two subdirectories called `fndata-1.5` and `fndata-1.7`. Specially, the data should be splited into there subdirectories following [FN1.5](https://github.com/swabhs/scaffolding/blob/master/allennlp/data/dataset_readers/framenet/full_text_reader.py) and [FN1.7](https://github.com/swabhs/open-sesame/blob/625da3d451/sesame/globalconfig.py). Structures are showed below:
 
 ```bash
 ./data
