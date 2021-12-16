@@ -4,5 +4,6 @@
 # contents of .allennlp_plugins makes it so you can just use `allennlp train`, and we will find your
 # classes and use them.  If you change the name of `my_project`, you'll also need to change it in
 # the same way in the .allennlp_plugins file.
-from my_project.model import *
-from my_project.dataset_reader import *
+from framenet_parser import *
+from framenet_parser.dataset_readers import *
+from framenet_parser.utils import *

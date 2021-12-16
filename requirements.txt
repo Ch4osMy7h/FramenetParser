@@ -1,3 +1,4 @@
+torch==1.9.0
 allennlp>=2.0,<3.0
 pytest
 flake8
