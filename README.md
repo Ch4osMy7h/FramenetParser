@@ -32,7 +32,7 @@ Request and download Framenet Dataset 1.5 and Framenet Dataset 1.7 from [Framene
 ```bash
 ./data
     fndata-1.5/
-        train/ containing the training xml files
+        train/ # containing the training xml files
         dev/
         test/
         ...
@@ -76,5 +76,5 @@ allennlp predict \
 ```
 
 ## TODOs:
-- [] An easy-to-use pipeline models for specific usages (will be published recently)
+- [ ] An easy-to-use pipeline models for specific usages (will be published recently)
 - [x] An easy-to-use full joint model for extracting frame-semantic structures
