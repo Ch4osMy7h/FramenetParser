@@ -63,7 +63,7 @@ allennlp evaluate your_evaluation_model \
     --output-file your_evaluation_output.json \
 ```
 
-## Inference on unlabed data
+## Inference on unlabled data
 For predicting targets, frames and frame element on your own unlabed data (follow the file format as shown in `experiments/inference/sample.json`), you can use the following commands:
 ```bash
 allennlp predict \
