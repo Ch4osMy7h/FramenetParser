@@ -83,7 +83,7 @@ class FramenetParserReader(DatasetReader):
     @overrides
     def _read(self, file_path: str):
         with open(file_path, "r") as f:
-            lines = f.readlines()[:5]
+            lines = f.readlines()
 
         for line in lines:
             # Loop over the documents.
