@@ -89,7 +89,7 @@ class NodeBuilder(Model):
             flat_mask = span_mask.view(-1).bool()
             flat_node_type_scores = node_type_scores.view(-1, self._num_node_type_labels)
             flat_node_type_labels = node_type_labels.view(-1)
-            node_type_loss = self._loss(flat_node_type_scores, flat_node_type_labels)
+            node_type_loss = self._loss(flat_node_type_scores[flat_mask], flat_node_type_labels[flat_mask])
 
             flat_node_attr_scores = node_attr_scores.view(-1, self._num_node_attr_labels)
             flat_node_attr_labels = node_attr_labels.view(-1)
