@@ -281,7 +281,7 @@ class EdgeBuilder(Model):
             res_p2r_edges.append(entry_p2r_edges)
 
         output_edges["decoded_p2p_edges_dict"] = res_p2p_edges_dict
-        output_edges["decoded_p2r_edges"] = res_p2p_edges
+        output_edges["decoded_p2p_edges"] = res_p2p_edges
         output_edges["decoded_p2r_edges_dict"] = res_p2r_edges_dict
         output_edges["decoded_p2r_edges"] = res_p2r_edges
 
